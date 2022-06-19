@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en-EN">
+
+<head>
+  <meta charset="UTF-8">
+  <title>HOME</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--ion icons-->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!--ion icons-->
+
+  <!-- Load font awesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!--google fonts-->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+
+  <!--google fonts-->
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header id="home-header">
+
+    <!--less than 959px--------------------------------------------------------------------------------------------------------------->
+
+    <nav class="topnav">
+
+      <!-- <a href="#home" class="logo">Logo</a> -->
+
+      <a href="index.html" class="logo active">
+
+        <div class="logoWords">
+          <span>Cabinet</span>
+          <span>Stomatologic</span>
+        </div>
+      </a>
+
+      <!-- Navigation links (hidden by default) -->
+      <div id="myLinks">
+        <!-- <a class="active" href="index.html">Home</a> -->
+        <a href="company.html">Companie</a>
+        <a href="team.html">Echipa</a>
+        <a href="manopere.html">Manopere</a>
+        <a href="reduceri.html">Reduceri</a>
+        <a href="medicina-generala.html">Medicina generala</a>
+        <a href="tehnica-dentara.html">Tehnica dentara</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+
+    </nav>
+
+    <!---more than 960px------------------------------------------------------------------------------------>
+    <!-- The navigation menu -->
+    <nav class="navbar">
+
+      <div id="left">
+        <a href="index.html" class="logo screen active">
+
+          <div class="logoWords screen-logo">
+            <span>Cabinet</span>
+            <span>Stomatologic</span>
+          </div>
+        </a>
+      </div>
+
+      <div id="right">
+        <!-- <a href="#home" class="active">Home</a> -->
+        <a href="contact.html" style="font-weight:bold">Contact</a>
+        <div class="subnav">
+          <button class="subnavbtn">Parteneri <i class="fa fa-caret-down"></i></button>
+          <div class="subnav-content">
+            <a href="medicina-generala.html">Medicina generala</a>
+            <a href="tehnica-dentara.html">Tehnica dentara</a>
+          </div>
+        </div>
+
+        <div class="subnav">
+          <button class="subnavbtn">Servicii <i class="fa fa-caret-down"></i></button>
+          <div class="subnav-content">
+            <a href="manopere.html">Manopere</a>
+            <a href="reduceri.html">Reduceri</a>
+          </div>
+        </div>
+
+        <div class="subnav">
+          <button class="subnavbtn">Despre noi <i class="fa fa-caret-down"></i></button>
+          <div class="subnav-content">
+            <a href="company.html">Companie</a>
+            <a href="team.html">Echipa</a>
+            <!-- <a href="#careers">Carieres</a> -->
+          </div>
+        </div>
+
+        <!-- <a href="#home" class="logo">Logo</a> -->
+      </div>
+    </nav>
+
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+        <img src="./images/home1.jpg" alt="home1-image" class="slider-img-home">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="./images/home3.jpg" alt="home2-image" class="slider-img-home">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="./images/home2.jpg" alt="home3-image" class="slider-img-home">
+      </div>
+
+      <!-- Next and previous buttons -->
+      <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br> -->
+
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <!--page links-->
+    <div id="inside-header" class="container">
+
+      <a href="#informatii" class="link-home informatii">
+        <h3>Informatii</h3>
+      </a>
+      <a href="#gdpr" class="link-home gdpr">
+        <h3>GDPR</h3>
+      </a>
+
+    </div>
+    <!--page links-->
+
+  </header>
+  <!--content--------------------------------------------------------------------------------->
+
+
+
+  <section class="container" style="text-align:center">
+    <h3><a href="programare/programare.html" id="programare">Programare</a></h3>
+  </section>
+
+  <section class="container" style="text-align:center">
+      <h3 class="important" style="color:DimGrey">
+        Cabinet stomatologic ofera servicii medicale intr-o locatie cu mediu ambiant placut ,
+         pentru rezolvarea problemelor dentare.
+      </h3>
+  </section>
+
+  <section class="container info-home section-on-page" id="general-dentistry">
+    <h1 class="important">O experiență pozitivă !</h1>
+    <article class="article-home-informatii">
+      <p>
+        Stomatologia este evaluarea , diagnosticarea , preventia si tratamentul bolilor ce tin de cavitatea orala si
+        regiunea maxilo-faciala.<br></br>
+        Cabinetul stomatologic ofera de la consultatie si control de rutina pana la
+        tratamente protetice restaurative complexe.<br></br>
+        Punând un accent puternic pe sănătatea și igiena orală,
+         stomatologia generala ajută oamenii să evite progresia bolilor bucale.<br></br>
+         Dacă nu sunt tratate, acestea au ca rezultat durere,
+         timp pierdut la serviciu sau la școală și un cost ridicat în fiecare an.
+      </p>
+
+      <p>
+        <span style="font-weight:bold">
+          Cine este singurul furnizor de servicii medicale pe care îl vezi mai mult decât pe oricare altul?<br></br>
+        Pentru mulți oameni, răspunsul este simplu: medicul dentist.</span><br></br>
+        Există un motiv bun pentru asta -
+        acesta constitue faptul că stomatologia generală este orientată în mod unic spre prevenirea bolilor.
+        De fapt, se estimează că peste 50% din toate procedurile dentare sunt fie de diagnosticare, fie de preventie.
+      </p>
+    </article>
+  </section>
+
+  <section class="container info-home section-on-page" id="informatii">
+    <h1 class="important">O viata mai buna incepe cu un zambet frumos !</h1>
+    <article class="article-home-informatii">
+      <p>
+        Serviciile de stomatologie generala constitue primul motiv pentru care pacientii se adreseaza cabinetului stomatologic.
+        Stomatologia generala este importanta pentru mentinerea sanatatii unui zambet frumos cat si a sanatatii generale.
+        Ignorarea cariei dentare si a bolii parodontale poate determina infectii locale si
+        boli generale la distanta cu manifestari multiple la nivelul intregului corp
+        <a href="http://www.amtsibiu.ro/Arhiva/2014/Nr3-ro/SaceleanuA-ro.pdf" target="_blank">
+          ( boala de focar )
+        </a>.<br></br>
+        Din pacate in Romania , pacientii indiferent de categoria sociala , se prezinta la stomatologie in regim de urgenta
+        cu durere si abces dentar.
+        Aceasta duce la devitalizarea dintilor ( extirpare de nerv , tratament endodontic si tratament odontal)
+        sau la extractie dentara.<br></br>
+        <span style="font-weight:bold">Pierderea dintilor nu constitue o solutie </span>.<br></br>
+      </p>
+
+      <p>
+        Zambetul natural ofera cea mai buna carte de vizita
+        iar dintii sanatosi garanteaza cea mai buna eficienta in procesul de masticatie.<br></br>
+        Serviciile generale de stomatologie sunt importante pentu preventie si detectarea precoce a patologiei orale
+        cat si depistarea unor boli generale cu manifestari locale la nivelul cavitatii bucale.<br></br>
+        <span style="font-weight:bold">Preventia este mai ieftina decat tratamentul</span>.<br></br>
+        Noi oferim servicii de stomatologie generale pentru pacienti de toate varstele ,
+        pentru toti membrii familiei.
+        Este recomandat ca fiecare sa beneficieze de 2 ori pe an de consultatie , control , igienizare.
+      </p>
+    </article>
+  </section>
+
+  <section class="container section-on-page" id="intrebari-frecvente">
+
+    <h1 class="important">Intrebari frecvente ale pacientilor</h1>
+
+    <article>
+      <h3 class="important" style="color:DimGrey">Pe mine nu ma dor dintii.<br></br>
+         Pot sa astept pana cand voi avea durere ?</h3>
+      <div class="center-content">
+        <img src="./images/question1.jpg" alt="question1-image" class="question-image" />
+      </div>
+      <p>
+        Durerea este simptomul prin care corpul tau corpul tau iti spune ca ceva nu este in regula.<br></br>
+        In orice caz , nu este singura metoda de diagnostic a dentistilor atunci cand evalueaza dintii si gingiile.<br></br>
+        <span style="font-weight:bold">Radiografia dentara ajuta la diagnosticare</span>.<br></br>
+        Uneori pacientii se pot obisnui cu dureri cronice , suportabile , iar aceasta ii determina sa amane consultatia sau
+        programarea la medicul stomatolog.<br></br>
+        Dar boala este activa si nu inceteaza sa afecteze sanatatea orala.
+        Deci , cu cat mai precoce se aplica tratamentul stomatologic , cu atat este mai conservator si mai accesibil ca pret.<br></br>
+        Caria dentara se dezvolta in timp , ceea ce a inceput ca o mica modificare de culoare va progresa catre pulpa dentara
+        determinand durere.
+        Mai grav este faptul ca dintii cu cavitati mari determina infectii si la nivelul osului alveolar ,
+        manifestandu-se prin abces dentar , modificare in volum a buzelor si orajilor , afectand estetica fetei si chiar starea generala.<br></br>
+        De aceea , tratamentul stomatologic este insotit de administrare de antibiotic.
+        Câteodată este necesara si spitalizarea pacientului.
+      </p>
+    </article>
+
+    <article>
+      <h3 class="important" style="color:DimGrey">Periuta dentara electrica este mai eficienta decat periuta manuala ?</h3>
+      <div class="center-content">
+        <img src="./images/question2.jpg" alt="question2-image" class="question-image" />
+      </div>
+      <p>
+        Ambele sunt eficiente daca timp de 2 minute pacientul foloseste o texnica de periaj corecta , de 2 ori pe zi ( după micul dejun și înainte de culcare ).<br></br>
+        Periutele cu peri tari nu asigura neaparat o indepartare mai eficienta a resturilor alimentare sau a placii bacteriene ,
+        dar poate fi mai abraziva pentru smaltul dentar.<br></br>
+        Fiecare pacient trebue sa isi aleaga periuta dentara potrivita. <br></br>
+        Recomandat este ca pasta de dinti sa contina fluor , nu doar pentru dinți de lapte , 0-6 ani , cat si pentru dintii permanenti.<br></br>
+        De asemenea , ar trebui ca apa de gura cu clorhexidina si ata dentara sa fie folosite cel putin zilnic.
+      </p>
+    </article>
+
+    <article>
+      <h3 class="important" style="color:DimGrey">Este indicat sa-mi schimb obiceiurile alimentare ?</h3>
+      <div class="center-content">
+        <img src="./images/question3.jpg" alt="question3-image" class="question-image" />
+      </div>
+      <p>
+        Alimentatia poate avea un efect major asupra sanatatii dentare.<br></br>
+        Nu toate alimentele sau bauturile au acelasi efect cand vorbim despre sanatatea dentara.<br></br>
+        <span style="font-weight:bold">Bauturile acidulate , carbogazoase determina demineralizarea rapida a smaltului ,
+        sensibilitatea dentara creste in intensitate si caria dentara avanseaza mai repede.</span><br></br>
+        Limitați numărul de dulciuri cu zahăr, în special bomboanele masticabile și tari care se pot lipi de dinți,
+        evitați, de asemenea, să consumati dulciuri pe tot parcursul zilei , in afara meselor principale.<br></br>
+        Bea apă mai des.<br></br>
+       Apa nu numai că este bună pentru sănătatea ta, ci
+       <span style="font-weight:bold">ajută la spălarea particulelor de alimente din gură
+          și la readucerea mai rapidă la un echilibru al pH-ului neutru</span>.<br></br>
+          <span style="font-weight:bold">Evitați fumatul</span>.<br></br>
+          Fumatul nu numai că vă afectează sănătatea generală,
+          ci poate avea multe efecte negative asupra sănătății dentare,
+           inclusiv contribuind la cresterea incidentei bolilor dentare.
+      </p>
+    </article>
+
+    <article>
+      <h3 class="important" style="color:DimGrey">Ce este bruxismul ?</h3>
+      <div class="center-content">
+        <img src="./images/question4.jpg" alt="question3-image" class="question-image" />
+      </div>
+      <p>
+      Scrâşnirea sau încleştarea dinților (deseori noaptea)
+       poate fi motivul și poate provoca, de asemenea, deteriorarea dinților și a maxilarului ,
+        dureri la nivelul articulatiei temporo-mandibulare.<br></br>
+        Se recomanda corectarea muscaturii , folosirea unor gutiere ,
+        coroane dentare si in cele din urma controlul stresului și al anxietății.
+      </p>
+    </article>
+
+  </section>
+
+
+  <section class="container info-home section-on-page" id="gdpr">
+    gdpr
+  </section>
+
+  <!--content----------------------------------------------------------------------->
+  <footer>
+    <div class="container">
+
+      <div id="icons">
+        <div class="footerIcons"><a href="https://facebook.com/" target="_blank">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a></div>
+        <div class="footerIcons"><a href="https://instagram.com/" target="_blank">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a></div>
+        <div class="footerIcons"><a href="https://twitter.com/" target="_blank">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a></div>
+      </div>
+
+      <!--sources links-->
+      <a href="#" title="show and hide source links" class="btn_show_hide">
+        <h3>Sources</h3>
+      </a>
+      <div id="divSources" class="hidden">
+        <h5><a href="https://images.unsplash.com/photo-1607278843240-419b8d83672d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80" target="_blank">
+            https://images.unsplash.com/
+            photo-1607278843240-
+            419b8d83672d?ixlib=
+            rb-1.2.1&ixid=
+            MnwxMjA3fDB8MHxwaG90by
+            1wYWdlfHx8fGVuf
+            DB8fHx8&auto=
+            format&fit=crop&w=
+            764&q=80
+          </a></h5>
+
+        <h5><a href="https://images.unsplash.com/photo-1557637145-36d29cb0f21a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1126&q=80" target="_blank">
+            https://images.unsplash.com/
+            photo-1557637145-
+            36d29cb0f21a?ixlib=
+            rb-1.2.1&ixid=
+            MnwxMjA3fDB8MHxwaG90by
+            1wYWdlfHx8fGVuf
+            DB8fHx8&auto=
+            format&fit=crop&w=
+            1126&q=80
+          </a></h5>
+
+        <h5><a href="https://images.unsplash.com/photo-1607960402012-7041136af2c0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" target="_blank">
+            https://images.unsplash.com/
+            photo-1607960402012-
+            7041136af2c0?ixlib=
+            rb-1.2.1&ixid=
+            MnwxMjA3fDB8MHxwaG90by
+            1wYWdlfHx8fGVuf
+            DB8fHx8&auto=
+            format&fit=crop&w=1170&q=80
+          </a></h5>
+
+        <h5><a href="https://images.unsplash.com/photo-1553691158-91a7f9183156?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" target="_blank">
+            https://images.unsplash.com/
+            photo-1553691158-
+            91a7f9183156?ixlib=
+            rb-1.2.1&ixid=
+            MnwxMjA3fDB8MHxwaG90by
+            1wYWdlfHx8fGVufDB8fHx8&auto=
+            format&fit=crop&w=1170&q=80
+          </a></h5>
+
+        <h5><a href="https://images.unsplash.com/photo-1606811971618-4486d14f3f99?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" target="_blank">
+            https://images.unsplash.com/
+            photo-1606811971618-
+            4486d14f3f99?ixlib=
+            rb-1.2.1&ixid=
+            MnwxMjA3fDB8MHxwaG90by
+            1wYWdlfHx8fGVufDB8fHx8&auto=
+            format&fit=crop&w=1074&q=80
+          </a></h5>
+
+
+        <h5><a href="https://images.unsplash.com/photo-1563635707334-5ce91b375ea6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" target="_blank">
+          https://images.unsplash.com/
+          photo-1563635707334-
+          5ce91b375ea6?ixlib=
+          rb-1.2.1&ixid=
+          MnwxMjA3fDB8MHxwaG90by
+          1wYWdlfHx8fGVufDB8fHx8&auto=
+          format&fit=crop&w=2070&q=80
+          </a></h5>
+
+          <h5><a href="https://images.unsplash.com/photo-1504707974430-fb210d7c7109?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" target="_blank">
+          https://images.unsplash.com/
+          photo-1504707974430-
+          fb210d7c7109?ixlib=
+          rb-1.2.1&ixid=
+          MnwxMjA3fDB8MHxwaG90by
+          1wYWdlfHx8fGVufDB8fHx8&auto=
+          format&fit=crop&w=1170&q=80
+            </a></h5>
+
+            <h5><a href="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" target="_blank">
+          https://images.unsplash.com/
+          photo-1508214751196-
+          bcfd4ca60f91?ixlib=
+          rb-1.2.1&ixid=
+          MnwxMjA3fDB8MHxwaG90by
+          1wYWdlfHx8fGVuf
+          DB8fHx8&auto=
+          format&fit=
+          crop&w=1170&q=80
+              </a></h5>
+
+              <h5><a href="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" target="_blank">
+          https://images.unsplash.com/
+          photo-1609840114035-
+          3c981b782dfe?ixlib=
+          rb-1.2.1&ixid=
+          MnwxMjA3fDB8MHxwaG90by
+          1wYWdlfHx8fGVuf
+          DB8fHx8&auto=
+          format&fit=
+          crop&w=1170&q=80
+                </a></h5>
+
+      </div>
+
+    </div>
+
+    <div class="container copyright">
+      <small>&copy; Copyright Reserved</small>
+    </div>
+
+  </footer>
+  <!--footer-->
+
+</body>
+<script src="js/footer.js" type="text/javascript"></script>
+<script src="js/hamburger.js" type="text/javascript"></script>
+<script src="js/slider-home-header.js" type="text/javascript"></script>
+
+</html>

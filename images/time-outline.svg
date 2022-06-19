@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="532" height="532" viewBox="0 0 532 532">
+  <g id="time-outline" transform="translate(-48 -48)">
+    <path id="Path_1" data-name="Path 1" d="M314,64C175.979,64,64,175.979,64,314S175.979,564,314,564,564,452.021,564,314,452.021,64,314,64Z" fill="none" stroke="#6495ed" stroke-miterlimit="10" stroke-width="32"/>
+    <path id="Path_2" data-name="Path 2" d="M256,128V272h96" transform="translate(77.333 30.933)" fill="none" stroke="#6495ed" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/>
+  </g>
+</svg>
