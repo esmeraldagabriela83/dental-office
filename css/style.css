@@ -1386,9 +1386,40 @@ form {
 
 /*-------------------programare ---------------------------*/
 
+/*---------------------------------------------------------------------gdpr html-----------------------------------------*/
 
+.gdpr-background{
+  background-color: DarkSlateGrey;
+  opacity: 50%;
 
+  background-repeat: repeat-x repeat-y;
+background-image: url(../images/xd-tooth-pattern.svg);
+}
 
+.gdpr-background:hover{
+  opacity:75%;
+transition: 0.5s ease;
+}
+
+#gdpr-page{
+  padding: 2em 3em;
+  border: 3px solid DarkSlateGrey;
+  margin:3em 3em;
+  background-color: white;
+  border-radius: 0.3em;
+  color:DarkSlateGrey;
+}
+
+#gdpr-page ul li{
+list-style-type: square;
+}
+
+#gdpr-page ul li ul li{
+list-style-type: circle;
+margin-left:2em;
+}
+
+/*-----------------------------------------------------gdpr html------------------------------------------------------------------*/
 
 /*footer*/
 footer h3 {
