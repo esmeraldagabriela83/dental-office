@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="593.976" height="530" viewBox="0 0 593.976 530">
+  <defs>
+    <filter id="house-medical-solid" x="0" y="0" width="593.976" height="530" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#2f4f4f" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#house-medical-solid)">
+    <path id="house-medical-solid-2" data-name="house-medical-solid" d="M575.8,255.5a32.309,32.309,0,0,1-32,32.1h-32l.7,160.1a64.06,64.06,0,0,1-64,64.3H128.1a64.036,64.036,0,0,1-64.01-64V287.6H32.05A31.7,31.7,0,0,1,0,255.5a32.489,32.489,0,0,1,10.01-24L266.4,8.016C273.4,1,281.4,0,288.4,0s15,2,21.1,7.014L564.8,231.5c8,7,12.1,15,11,24ZM328,232V176a16.047,16.047,0,0,0-16-16H264a16.047,16.047,0,0,0-16,16v56H192a16.047,16.047,0,0,0-16,16v48a16.047,16.047,0,0,0,16,16h56v56a16.047,16.047,0,0,0,16,16h48a16.047,16.047,0,0,0,16-16V312h56a16.047,16.047,0,0,0,16-16V248a16.047,16.047,0,0,0-16-16Z" transform="translate(9 6)" fill="#6495ed"/>
+  </g>
+</svg>

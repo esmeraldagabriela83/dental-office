@@ -1,39 +1,39 @@
-
-{
- box-sizing: border-box;
- margin: 0;
- padding: 0;
- text-decoration: none;
- list-style-type: none;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
 }
 
 @media only screen and (max-width: 959px) {
-  html{
-   font-size: 16px;
+  html {
+    font-size: 16px;
   }
 }
 
 @media only screen and (min-width: 960px) {
-  html{
-   font-size: 20px;
+  html {
+    font-size: 20px;
   }
 }
 
-body{
+body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-font-family:Arial, Helvetica , sans-serif;
-background-color:white;
-color:DimGrey;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  color: DimGrey;
 }
-/*----------------------------------------------------------------------------*/
 
+/*----------------------------------------------------------------------------*/
 @media only screen and (max-width: 959px) {
-.navbar{
-  display:none;
+  .navbar {
+    display: none;
+  }
 }
-}
+
 /*---------------------------------------over 960px-----------------------------*/
 /* The navigation menu */
 .navbar {
@@ -42,9 +42,9 @@ color:DimGrey;
   box-shadow: 0.25px 0.25px 5px gray;
 }
 
-.screen{
-  position:absolute;
-  float:left;
+.screen {
+  position: absolute;
+  float: left;
 }
 
 /* Navigation links */
@@ -91,7 +91,7 @@ color:DimGrey;
   background-color: skyblue;
   width: 100%;
   z-index: 1;
- /* box-shadow: 0.25px 0.25px 5px gray; */
+  /* box-shadow: 0.25px 0.25px 5px gray; */
 }
 
 /* Style the subnav links */
@@ -104,7 +104,7 @@ color:DimGrey;
 
 /* Add a grey background color on hover */
 .subnav-content a:hover {
-  background-color:DimGrey;
+  background-color: DimGrey;
   color: white;
 }
 
@@ -112,114 +112,109 @@ color:DimGrey;
 .subnav:hover .subnav-content {
   display: block;
 }
+
 /*--------------------------under 960px  --------------------------------------------------*/
-
-
 /* Style the navigation menu */
 .topnav {
- /* overflow: hidden; */
- background-color:cornflowerblue;
- position: relative;
- box-shadow: 0.25px 0.25px 5px gray;
+  /* overflow: hidden; */
+  background-color: cornflowerblue;
+  position: relative;
+  box-shadow: 0.25px 0.25px 5px gray;
 }
-@media only screen and (min-width: 960px) {
- .topnav{
-   display:flex;
-   align-items: center;
-   justify-content: space-between;
- }
-}
-/* Hide the links inside the navigation menu (except for logo/home) */
 
 @media only screen and (min-width: 960px) {
- .topnav #myLinks {
-   display: flex;
- }
+  .topnav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+@media only screen and (min-width: 960px) {
+  .topnav #myLinks {
+    display: flex;
+  }
 }
 
 @media only screen and (max-width: 959px) {
- .topnav #myLinks {
-   display: none;
- }
+  .topnav #myLinks {
+    display: none;
+  }
 }
 
 /* Style navigation menu links */
 .topnav a {
- color:white;
- padding: 15px 20px;
- text-decoration: none;
- font-size: 1.25rem;
- display: block;
+  color: white;
+  padding: 15px 20px;
+  text-decoration: none;
+  font-size: 1.25rem;
+  display: block;
   font-weight: bold;
 }
 
 /* Style the hamburger menu */
-
 @media only screen and (max-width: 959px) {
- .topnav a.icon {
-   background: DimGrey;
-   display: block;
-   position: absolute;
-   right: 0;
-   top: 0;
- }
+  .topnav a.icon {
+    background: DimGrey;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
 }
 
 @media only screen and (min-width: 960px) {
- .topnav a.icon {
-   display: none;
- }
+  .topnav a.icon {
+    display: none;
+  }
 }
 
 /* Add a grey background color on mouse-over */
 .topnav a:hover {
- background-color: white;
- color: cornflowerblue;
-   transition: 0.5s;
+  background-color: white;
+  color: cornflowerblue;
+  transition: 0.5s;
 }
 
 @media only screen and (max-width: 959px) {
   .topnav #myLinks a:hover {
-    border-bottom:3px solid DimGrey;
+    border-bottom: 3px solid DimGrey;
   }
 }
 
 /* Style the active link (or home/logo) */
 .logo {
- background-color:skyblue;
- color: white;
- font-weight: bold;
+  background-color: skyblue;
+  color: white;
+  font-weight: bold;
 }
 
-.logo.screen:hover{
+.logo.screen:hover {
   background-color: white;
-  color:cornflowerblue;
+  color: cornflowerblue;
 }
 
 @media only screen and (min-width: 960px) {
-.topnav{
-  display:none;
+  .topnav {
+    display: none;
+  }
 }
-}
-
 
 /*----------------------------------------------------------------------------*/
-
 .container {
   max-width: 1088px;
   margin: 0 auto;
-  padding:1em;
+  padding: 1em;
 }
 
 /*----------------------------------------------------------------------------*/
-
 header#home {
   /* height: 100vh; */
   /* background-image: url(../images/Image.jpg); */
   /*
   background-image: url(https://images.unsplash.com/photo-1623387641168-d9803ddd3f35?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
    */
-
   /* width: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -227,7 +222,6 @@ header#home {
   box-shadow: 0.5px 0.5px 10px gray; */
   /* border:5px solid yellow; */
 }
-
 
 /*
 .transparency {
@@ -238,11 +232,8 @@ header#home {
 }  */
 /**/
 /*-------------------------content----------------------------------------------------*/
-
 /*---------------------------------content style.css for home---------------------------------------------*/
-
 /*--------------HOME page  style-------------*/
-
 /* Slideshow container */
 .slideshow-container {
   /* max-width: 1000px; */
@@ -269,20 +260,17 @@ header#home {
   border-radius: 0 3px 3px 0;
   user-select: none;
 } */
-
 /* Position the "next button" to the right */
 /* .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 } */
-
 /* On hover, add a black background color with a little bit see-through */
 /* .prev:hover, .next:hover {
   background-color: DarkSlateGrey;
 } */
-
-.slider-img-home{
-  width:100% ;
+.slider-img-home {
+  width: 100%;
   box-shadow: 0.3px 0.3px 5px DarkSlateGrey;
 }
 
@@ -291,7 +279,7 @@ header#home {
   cursor: pointer;
   height: 15px;
   width: 15px;
-margin:1em 1em 0 1em;
+  margin: 1em 1em 0 1em;
   background-color: cornflowerblue;
   border-radius: 50%;
   display: inline-block;
@@ -301,13 +289,12 @@ margin:1em 1em 0 1em;
 
 .active, .dot:hover {
   background-color: skyblue;
-  transition:0.5s ease;
+  transition: 0.5s ease;
 }
 
 .dot:active {
   background-color: DimGrey;
 }
-
 
 /* Fading animation */
 .fade {
@@ -316,44 +303,59 @@ margin:1em 1em 0 1em;
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
 }
 
 /*--------------------content home index.html*/
-
-h1 , h3, p{
+h1, h3, p {
   text-align: center;
 }
-h1{
+
+h1 {
   text-shadow: 0.3px 0.3px 2.5px DarkSlateGrey;
 }
 
-#programare{
+#programare {
   text-decoration: none;
-  color:DarkSlateGrey;
+  color: DarkSlateGrey;
   padding: 1em 2em;
   border-radius: 0.3em;
-  border:3px solid DarkSlateGrey;
+  border: 3px solid DarkSlateGrey;
   box-shadow: 0.3px 0.3px 5px DarkSlateGrey;
-font-family: 'Roboto Mono', monospace;
+  font-family: 'Roboto Mono', monospace;
   letter-spacing: 0.3em;
   font-size: 1.3rem;
   text-shadow: 0.3px 0.3px 2.5px DarkSlateGrey;
 }
 
-#programare:hover{
-  color:white;
+#programare:hover {
+  color: white;
   background-color: DarkSlateGrey;
-  transition:0.5s ease;
+  transition: 0.5s ease;
 }
 
-.info-home{
-  height: auto;
+@media only screen and (max-width: 959px) {
+  .info-home {
+    height: auto;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
 }
 
 @media only screen and (min-width: 960px) {
-  #inside-header{
+  .info-home {
+    height: auto;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  #inside-header {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -361,126 +363,166 @@ font-family: 'Roboto Mono', monospace;
 }
 
 @media only screen and (max-width: 959px) {
-  #inside-header{
+  #inside-header {
     display: block;
     text-align: center;
   }
 }
 
-#inside-header a{
+#inside-header a {
   text-decoration: none;
-  color:cornflowerblue;
+  color: cornflowerblue;
   text-shadow: 0.3px 0.3px 2.5px DarkSlateGrey;
-    letter-spacing: 0.3em;
-    font-weight: bold;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 1.3rem;
+  letter-spacing: 0.3em;
+  font-weight: bold;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.3rem;
 }
 
-#inside-header a:hover{
-  color:skyblue;
-  transition:0.5s ease;
+#inside-header a:hover {
+  color: skyblue;
+  transition: 0.5s ease;
 }
 
-#inside-header a:active{
-  color:DimGrey;
+#inside-header a:active {
+  color: DimGrey;
 }
 
-.section-on-page{
+.section-on-page {
   /* height:70vh; */
   height: auto;
-  display:flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
 
-.important{
-  color:cornflowerblue;
+.important {
+  color: cornflowerblue;
   letter-spacing: 0.05em;
   font-weight: bold;
   font-family: 'Roboto Mono', monospace;
   text-align: center;
+  margin: 1em;
 }
 
-#informatii p a{
-  color:cornflowerblue;
+#informatii p a {
+  color: cornflowerblue;
   text-decoration: none;
   font-weight: bold;
 }
 
-#informatii p a:hover{
-  color:skyblue;
+#informatii p a:hover {
+  color: skyblue;
 }
 
-#informatii p a:active{
-  color:DimGrey;
+#informatii p a:active {
+  color: DimGrey;
 }
 
 @media only screen and (max-width: 959px) {
-  .article-home-informatii{
-    display:block;
+  .article-home-informatii {
+    display: block;
   }
 }
 
 @media only screen and (min-width: 960px) {
-  .article-home-informatii{
-    display:flex;
+  .article-home-informatii {
+    display: flex;
     align-items: flex-start;
     justify-content: space-around;
   }
-  .article-home-informatii p{
-  padding: 0 1em;
-width: 50%;
+
+  .article-home-informatii p {
+    padding: 0 1em;
+    width: 50%;
   }
 }
 
-.center-content{
+.center-content {
   display: flex;
   text-align: center;
   justify-content: center;
 }
 
-.question-image{
-  width:50%;
+.question-image {
+  width: 50%;
   box-shadow: 0.3px 0.3px 2.5px DarkSlateGrey;
   border-radius: 0.3em;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
+div.renovare-cabinet{
+    box-shadow: 0.3px 0.3px 2.5px DarkSlateGrey;
+    background-image: linear-gradient(to bottom right, DarkSlateGrey, skyblue);
+}
+
+div.renovare-cabinet:hover{
+  transition:0.5s ease;
+    background-image: linear-gradient(to right bottom, skyblue, DarkSlateGrey);
+}
 
 /*--------------HOME index.html style-------------*/
 
 /*--------------------------content style css for home---------------------------------------------------*/
 
 /*-----------------------contact-----------------------------------------------------------*/
-
 /*   cornflowerblue  #6495ED */
-
 /*   DarkSlateGrey  #2F4F4F */
-
-.contact{
-  color:cornflowerblue;
+.contact {
+  color: cornflowerblue;
   letter-spacing: 0.05em;
   font-weight: bold;
   font-family: 'Roboto Mono', monospace;
   text-align: center;
   padding: 1em 2em;
   border-radius: 0.3em;
-  border:3px solid DarkSlateGrey;
+  border: 3px solid DarkSlateGrey;
   box-shadow: 0.3px 0.3px 5px DarkSlateGrey;
   margin-top: 3em;
   margin-bottom: 6em;
-
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
 
+.team {
+  text-align: center;
+  padding: 1em 2em;
+  border-radius: 0.3em;
+  border: 3px solid DarkSlateGrey;
+  box-shadow: 0.3px 0.3px 5px DarkSlateGrey;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  position: relative;
+}
 
+.team::before {
+  content: "";
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+  height: 100px;
+  width: 100px;
+  background-repeat: no-repeat;
+  background-image: url(../images/people-group-solid.png);
+  background-color: white;
+  background-position: center;
+  background-size: contain;
+  border-radius: 0.3em;
+  border: 3px solid DarkSlateGrey;
+  box-shadow: 0.3px 0.3px 5px DarkSlateGrey;
+}
+
+.team:hover::before {
+  background-color: DarkSlateGrey;
+  transition: 0.5s ease;
+}
 
 @media only screen and (min-width: 960px) {
-  .article-contact-tel{
+  .article-contact-tel {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -488,66 +530,823 @@ width: 50%;
     width: 100%;
   }
 
-  .svg-tooth{
+  .svg-tooth {
     height: 50px;
     width: 50px;
   }
 
-  #contact-program ion-icon{
+  #contact-program ion-icon {
     height: 50px;
     width: 50px;
   }
-
 }
 
 @media only screen and (max-width: 959px) {
-  .article-contact-tel{
+  .article-contact-tel {
     display: block;
   }
 
-  .svg-tooth{
+  .svg-tooth {
     height: 40px;
     width: 40px;
   }
 
-#contact-program ion-icon{
-  height: 40px;
-  width: 40px;
+  #contact-program ion-icon {
+    height: 40px;
+    width: 40px;
+  }
 }
 
-}
-
-#img-img{
+/*----------------team page----------------------------------*/
+#img-img {
   border-radius: 0.3em;
   box-shadow: 0.3px 0.3px 5px DarkSlateGrey;
 }
 
-/*-----------------------contact-----------------------------------------------------------*/
-
-/*footer*/
-
-.hidden{
-  display:none;
+/*----------------team page----------------------------------*/
+/*---------------------------------------company page---------------------------------------*/
+.company {
+  text-align: center;
+  padding: 1em 2em;
+  border-radius: 0.3em;
+  border: 3px solid DarkSlateGrey;
+  box-shadow: 0.3px 0.3px 5px DarkSlateGrey;
+  margin-top: 6em;
+  margin-bottom: 3em;
+  position: relative;
+  /* height: 50vh; */
 }
-footer h3{
-  color:white;
+
+.company::before {
+  content: "";
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+  height: 100px;
+  width: 100px;
+  background-repeat: no-repeat;
+  background-image: url(../images/house-medical-solid.png);
+  background-color: white;
+  background-position: center;
+  background-size: contain;
+  border-radius: 0.3em;
+  border: 3px solid DarkSlateGrey;
+  box-shadow: 0.3px 0.3px 5px DarkSlateGrey;
+}
+
+.company:hover::before {
+  background-color: DarkSlateGrey;
+  transition: 0.5s ease;
+}
+
+.company ul li {
+  list-style-type: none;
+}
+
+.company ul li a {
+  text-decoration: none;
+}
+
+.company ul li a {
+  color: cornflowerblue;
+}
+
+.company ul li a:hover {
+  color: skyblue;
+  transition: 0.5s ease;
+}
+
+.company ul li a:active {
+  color: DimGrey;
+}
+
+/*-----------------------------------------company page----------------------------------------*/
+/*-----------------map-------contact page-----------------------------------------------------------------------------*/
+@media only screen and (max-width: 959px) {
+  #makeMap {
+    position: relative;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  #makeMap {
+    position: relative;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  /* margin: 0 1em; */
+  border-radius: 0.3em;
+  box-shadow: 0.3px 0.3px 5px DarkSlateGrey;
+  border: 3px solid DarkSlateGrey;
+  margin-bottom: 3em;
+}
+
+@media only screen and (min-width: 500px) {
+  #location {
+    width: 50%;
+    border-radius: 0.3em;
+    box-shadow: 0.3px 0.3px 5px DarkSlateGrey;
+    border: 3px solid DarkSlateGrey;
+    margin-bottom: 3em;
+    margin-top: 5em;
+    padding-top: 1em;
+    padding-right: 2.7em;
+    padding-left: 2.7em;
+    background-color: skyblue;
+  }
+
+  #location:hover {
+    background-color: cornflowerblue;
+    transition: 0.5s ease;
+  }
+}
+
+@media only screen and (max-width: 499px) {
+  #location {
+    display: none;
+  }
+
+  #makeMap {
+    margin-top: 3em;
+  }
+}
+
+/*----------------------------map--------contact page-----------------------------------------------------------------*/
+/*-----------------------contact-----------------------------------------------------------*/
+/*----------------------------flip change img company-------------------------------------------------*/
+/* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+@media only screen and (max-width: 959px) {
+  .flip-box {
+    display: none;
+  }
+
+  .company-img {
+    display: none;
+  }
+
+  #mobile-company {
+    display: block;
+    border-radius: 0.3em;
+    box-shadow: 0.3px 0.3px 5px DarkSlateGrey;
+    margin-top: 3em;
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  .flip-box {
+    background-color: transparent;
+    width: 50%;
+    height: 50vh;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+    /* Remove this if you don't want the 3D effect */
+  }
+
+  .company-img {
+    width: 100%;
+    height: 50vh;
+    border-radius: 0.3em;
+  }
+
+  #mobile-company {
+    display: none;
+  }
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+  border-radius: 0.3em;
+  box-shadow: 0.3px 0.3px 5px DarkSlateGrey;
+}
+
+/* Style the back side */
+.flip-box-back {
+  background-color: cornflowerblue;
+  color: white;
+  transform: rotateY(180deg);
+  border-radius: 0.3em;
+  box-shadow: 0.3px 0.3px 5px DarkSlateGrey;
+}
+
+/*----------------------------flip change img company-------------------------------------------------*/
+/*-----------------------------medicina generala page-------------------------------------------------------------------*/
+@media only screen and (min-width: 960px) {
+  #mobile-medicina-generala {
+    display: none;
+  }
+
+  .general-medicine {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 959px) {
+  #mobile-medicina-generala {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    width: 50%;
+    display: block;
+    border-radius: 0.3em;
+    box-shadow: 0.3px 0.3px 5px DarkSlateGrey;
+  }
+
+  .general-medicine {
+    display: none;
+  }
+}
+
+#medicina-generala-img {
+  height: 50vh;
+  width: 50%;
+  background-repeat: no-repeat;
+  /* background-image: url(../images/medicina-generala1.jpg); */
+  background-position: center;
+  background-size: cover;
+  border-radius: 0.3em;
+  box-shadow: 0.3px 0.3px 5px DarkSlateGrey;
+}
+
+/* #medicina-generala-img:hover{
+   background-image: url(../images/medicina-generala-2.jpg);
+   transition:0.5s ease;
+} */
+.med-gen {
+  text-align: center;
+  padding: 1em 2em;
+  border-radius: 0.3em;
+  border: 3px solid DarkSlateGrey;
+  box-shadow: 0.3px 0.3px 5px DarkSlateGrey;
+  margin-top: 6em;
+  margin-bottom: 3em;
+  position: relative;
+  /* height: 50vh; */
+}
+
+.med-gen::before {
+  content: "";
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+  height: 100px;
+  width: 100px;
+  background-repeat: no-repeat;
+  background-image: url(../images/book-medical-solid.png);
+  background-color: white;
+  background-position: center;
+  background-size: contain;
+  border-radius: 0.3em;
+  border: 3px solid DarkSlateGrey;
+  box-shadow: 0.3px 0.3px 5px DarkSlateGrey;
+}
+
+.med-gen:hover::before {
+  background-color: DarkSlateGrey;
+  transition: 0.5s ease;
+}
+
+.med-gen p a {
+  color: cornflowerblue;
+}
+
+.med-gen p a:hover {
+  color: skyblue;
+  transition: 0.5s ease;
+}
+
+.med-gen p a:active {
+  color: DimGrey;
+}
+
+/*-----------------------------medicina generala page-------------------------------------------------------------------*/
+/*-----------------------------tehnica dentara page-------------------------------------------------------------------*/
+@media only screen and (min-width: 960px) {
+  #mobile-tehnica-dentara {
+    display: none;
+  }
+
+  .tehnica-dentara {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 959px) {
+  #mobile-tehnica-dentara {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    width: 50%;
+    display: block;
+    border-radius: 0.3em;
+    box-shadow: 0.3px 0.3px 5px DarkSlateGrey;
+  }
+
+  .tehnica-dentara {
+    display: none;
+  }
+}
+
+#tehnica-dentara-img {
+  height: 50vh;
+  width: 50%;
+  background-repeat: no-repeat;
+  background-image: url(../images/tehnica-dentara1.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 0.3em;
+  box-shadow: 0.3px 0.3px 5px DarkSlateGrey;
+}
+
+#tehnica-dentara-img:hover {
+  background-image: url(../images/tehnica-dentara2.jpg);
+  transition: 0.5s ease;
+}
+
+.teh-dent {
+  text-align: center;
+  padding: 1em 2em;
+  border-radius: 0.3em;
+  border: 3px solid DarkSlateGrey;
+  box-shadow: 0.3px 0.3px 5px DarkSlateGrey;
+  margin-top: 6em;
+  margin-bottom: 3em;
+  position: relative;
+  /* height: 50vh; */
+}
+
+.teh-dent::before {
+  content: "";
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+  height: 100px;
+  width: 100px;
+  background-repeat: no-repeat;
+  background-image: url(../images/technique-dental.png);
+  background-color: white;
+  background-position: center;
+  background-size: contain;
+  border-radius: 0.3em;
+  border: 3px solid DarkSlateGrey;
+  box-shadow: 0.3px 0.3px 5px DarkSlateGrey;
+}
+
+.teh-dent:hover::before {
+  background-color: DarkSlateGrey;
+  transition: 0.5s ease;
+}
+
+.teh-dent p a {
+  color: cornflowerblue;
+}
+
+.teh-dent p a:hover {
+  color: skyblue;
+}
+
+.teh-dent p a:active {
+  color: DimGrey;
+}
+
+/*-----------------------------tehnica dentara page--------------------------------------*/
+/*-----------------------------reduceri page--------------------------------------*/
+@media only screen and (min-width: 960px) {
+  #mobile-reduceri {
+    display: none;
+  }
+
+  .reduceri {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 959px) {
+  #mobile-reduceri {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    width: 50%;
+    display: block;
+    border-radius: 0.3em;
+    box-shadow: 0.3px 0.3px 5px DarkSlateGrey;
+  }
+
+  .reduceri {
+    display: none;
+  }
+}
+
+#reduceri-img {
+  height: 50vh;
+  width: 50%;
+  background-repeat: no-repeat;
+  /* background-image: url(../images/reduceri1.jpg); */
+  background-position: center;
+  background-size: cover;
+  border-radius: 0.3em;
+  box-shadow: 0.3px 0.3px 5px DarkSlateGrey;
+}
+
+/* #reduceri-img:hover{
+   background-image: url(../images/reduceri2.jpg);
+   transition:0.5s ease;
+} */
+.reduceri-section {
+  text-align: center;
+  padding: 1em 2em;
+  border-radius: 0.3em;
+  border: 3px solid DarkSlateGrey;
+  box-shadow: 0.3px 0.3px 5px DarkSlateGrey;
+  margin-top: 6em;
+  margin-bottom: 3em;
+  position: relative;
+  /* height: 50vh; */
+}
+
+.reduceri-section::before {
+  content: "";
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+  height: 100px;
+  width: 100px;
+  background-repeat: no-repeat;
+  background-image: url(../images/coins-solid.png);
+  background-color: white;
+  background-position: center;
+  background-size: contain;
+  border-radius: 0.3em;
+  border: 3px solid DarkSlateGrey;
+  box-shadow: 0.3px 0.3px 5px DarkSlateGrey;
+}
+
+.reduceri-section:hover::before {
+  background-color: DarkSlateGrey;
+  transition: 0.5s ease;
+}
+
+/*-----------------------------reduceri page--------------------------------------*/
+/*-----------------------------manopere page--------------------------------------*/
+/*----------------------tooltip-------manopere page--------------------------------------*/
+/*---------------------   https://www.w3schools.com/css/css_tooltip.asp    -----------------------------------*/
+@media only screen and (min-width: 580px) {
+
+  /* Tooltip container */
+  .tooltip {
+    position: relative;
+    display: inline-block;
+  }
+
+  /* Tooltip text */
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: cornflowerblue;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 0.15em;
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 1.5em;
+    margin-left: -15em;
+  }
+
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+}
+
+@media only screen and (max-width: 579px) {
+  .tooltip, .tooltiptext {
+    display: none
+  }
+}
+
+/*----------------------tooltip-------manopere page--------------------------------------*/
+/* accordion */
+#accordion {
+  border-left: 3px solid DarkSlateGrey;
+  border-right: 3px solid DarkSlateGrey;
+  margin-top: 3em;
+}
+
+@media only screen and (max-width: 959px) {
+  #accordion {
+    border-left: 3px solid DarkSlateGrey;
+    border-right: 3px solid DarkSlateGrey;
+    /* margin-top: 1.5em; */
+    margin-left: 3em;
+    margin-right: 3em;
+  }
+}
+
+.accordion-img-holder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#accordion section a {
+  text-align: center;
+  color: cornflowerblue;
+}
+
+#accordion section a:hover {
+  color: skyblue;
+}
+
+#accordion section a:active {
+  color: DimGrey;
+}
+
+#accordion section a h3 {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+#accordion section p {
+  text-align: center;
+  color: DimGrey;
+  margin-bottom: 1.5em;
+  display: none;
+}
+
+#accordion section:target p {
+  display: block;
+}
+
+#accordion section img {
+  text-align: center;
+  display: none;
+}
+
+#accordion section:target img {
+  display: block;
+}
+
+main#accordion section img {
+  margin-bottom: 1.5em;
+  width: 50%;
+  border-radius: 0.3em;
+  border: 3px solid cornflowerblue;
+  box-shadow: 0.3px 0.3px 5px DarkSlateGrey;
+}
+
+main#accordion section img:hover {
+  border: 3px solid DarkSlateGrey;
+  transition: 0.5s ease;
+}
+
+/* accordion */
+.floating-btn {
+  border-radius: 0.3em;
+  background-color: transparent;
+  border: 3px solid DarkSlateGrey;
+  box-shadow: 0.3px 0.3px 5px DarkSlateGrey;
+  color: DarkSlateGrey;
+  cursor: pointer;
+  font-size: 0.75rem;
+  line-height: 20px;
+  padding: 15px 20px;
+  position: fixed;
+  bottom: 150px;
+  right: 20px;
+  z-index: 3;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: bold;
+  text-shadow: 0.3px 0.3px 2.5px DarkSlateGrey;
+}
+
+.floating-btn:hover {
+  background-color: DarkSlateGrey;
+  color: white;
+}
+
+.floating-btn:focus {
+  outline: none;
+}
+
+@media screen and (max-width: 1535px) {
+  .floating-btn {
+    display: none;
+  }
+}
+
+/*-----------------------------manopere page--------------------------------------*/
+/*-------------------programare ---------------------------*/
+aside.aside-pattern {
+  background-color: pink;
+  border: 3px solid red;
+  /* width: calc(100% - 1088px); */
+  width: calc(100% - 1200px);
+  height: 150vh;
+}
+
+/*-------------------programare contact form---------------------------*/
+form {
+  border: 3px solid DarkSlateGrey;
+  box-shadow: 0.3px 0.3px 2.5px DarkSlateGrey;
+  border-radius: 0.3em;
+  padding: 1em;
+}
+
+@media screen and (min-width: 960px) {
+  form {
+    width: 50vw;
+  }
+}
+
+@media screen and (max-width: 959px) {
+  form {
+    width: 90vw;
+  }
+}
+
+.form-control {
+  padding: 0.5em 0;
+  /* border: 3px solid pink; */
+  margin-bottom: 1.5em;
+  position: relative;
+}
+
+.form-control label {
+  display: block;
+  margin-bottom: 1em;
+}
+/*----------------------input-----------------*/
+.form-control label input{
+  display: block;
+  margin-top: 0.5em;
+  padding: 1em 0;
+  border: 3px solid skyblue;
+  box-shadow: 0.3px 0.3px 2.5px DarkSlateGrey;
+  border-radius: 0.3em;
+  padding: 0.5em;
+  width: 100%;
+  color:cornflowerblue;
+  font-weight: bold;
+}
+
+.form-control.success label input{
+  border:3px solid green;
+}
+
+.form-control.error label input{
+  border:3px solid red;
+}
+
+.form-control input:focus {
+	outline: 0;
+	border-color: cornflowerblue;
+}
+
+/*------------------------------------input-----------------------------*/
+
+/*-----------------------------------textarea-----------------------*/
+
+.form-control label textarea{
+  display: block;
+  margin-top: 0.5em;
+  padding: 1em 0;
+  border: 3px solid skyblue;
+  box-shadow: 0.3px 0.3px 2.5px DarkSlateGrey;
+  border-radius: 0.3em;
+  padding: 0.5em;
+  width: 100%;
+  color:cornflowerblue;
+  font-weight: bold;
+}
+
+.form-control.success label textarea{
+  border:3px solid green;
+}
+
+.form-control.error label textarea{
+  border:3px solid red;
+}
+
+.form-control textarea:focus {
+	outline: 0;
+	border-color: cornflowerblue;
+}
+
+/*--------------------------textarea-------------------------------------*/
+
+
+.form-control i{
+  position:absolute;
+  top:43px;
+  right:10px;
+  visibility:hidden;
+}
+
+.form-control.success i.fa-check-circle{
+  visibility:visible;
+  color:green;
+}
+
+.form-control.error i.fa-exclamation-circle{
+  visibility:visible;
+  color:red;
+}
+
+.form-control small{
+  position:absolute;
+  bottom:0;
+  left:0;
+  visibility:hidden;
+}
+
+.form-control.error small{
+    visibility:visible;
+    color:red;
+}
+
+
+
+/*-------------------programare contact form---------------------------*/
+/*-------------------programare ---------------------------*/
+/*footer*/
+footer h3 {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.hidden {
+  display: none;
+}
+
+footer h3 {
+  color: white;
   text-align: center;
 }
-footer a{
-text-decoration: none;
-}
-footer a h3:hover{
-  color:skyblue;
-}
-footer a h3:active{
-  color:DimGrey;
+
+footer a {
+  text-decoration: none;
 }
 
+footer a h3:hover {
+  color: skyblue;
+}
+
+footer a h3:active {
+  color: DimGrey;
+}
 
 footer {
-  background-color:cornflowerblue;
-    padding: 15px 0;
-    height:auto;
+  background-color: cornflowerblue;
+  padding: 15px 0;
+  height: auto;
 }
 
 footer #icons {
@@ -559,7 +1358,7 @@ footer #icons {
 }
 
 footer .footerIcons a {
-  color:white;
+  color: white;
   font-size: 3rem;
 }
 
@@ -577,10 +1376,12 @@ footer .footerIcons a:active {
   text-align: center;
   line-height: 1.5em;
   letter-spacing: 0.1em;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
 }
 
 #divSources h5 a {
-  color:white;
+  color: white;
 }
 
 #divSources h5 a:hover {
@@ -613,12 +1414,14 @@ footer .footerIcons a:active {
   }
 }
 
-.copyright{
+.copyright {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-small{
-  color:white;
+
+footer small {
+  color: white;
 }
+
 /**/

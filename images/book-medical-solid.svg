@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="466" height="530" viewBox="0 0 466 530">
+  <defs>
+    <filter id="book-medical-solid" x="0" y="0" width="466" height="530" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#2f4f4f" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#book-medical-solid)">
+    <path id="book-medical-solid-2" data-name="book-medical-solid" d="M448,358.4V25.6C448,9.6,438.4,0,422.4,0H96C41.6,0,0,41.6,0,96V416c0,54.4,41.6,96,96,96H422.4c12.8,0,25.6-9.6,25.6-25.6v-16q0-9.6-9.6-19.2c-3.2-16-3.2-60.8,0-73.6q9.6-4.8,9.6-19.2ZM144,168a8,8,0,0,1,8-8h56V104a8,8,0,0,1,8-8h48a8,8,0,0,1,8,8v56h56a8,8,0,0,1,8,8v48a8,8,0,0,1-8,8H272v56a8,8,0,0,1-8,8H216a8,8,0,0,1-8-8V224H152a8,8,0,0,1-8-8ZM380.8,448H96c-19.2,0-32-12.8-32-32s16-32,32-32H380.8Z" transform="translate(9 6)" fill="#6495ed"/>
+  </g>
+</svg>

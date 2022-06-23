@@ -24,6 +24,19 @@
   <!--google fonts-->
 
 
+  <!--map-->
+ <!-- https://account.mapbox.com/ -->
+ <!-- https://docs.mapbox.com/mapbox-gl-js/example/simple-map/ -->
+ <link href="https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.css" rel="stylesheet">
+ <script src="https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.js"></script>
+
+ <!-- <style>
+body { margin: 0; padding: 0; }
+#map { position: absolute; top: 0; bottom: 0; width: 100%; }
+</style> -->
+ <!--map-->
+
+
   <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -110,20 +123,31 @@
 </header>
 <!--content--------------------------------------------------------------------------------->
 
+<!--map-->
 
-<section class="container">
-   <div class="center-content">
-<img src="./images/contact1.jpg" alt="contact-slider-image-1" width="50%" id="img-img"/>
+<div class="container">
+
+<div class="center-content">
+<img src="./images/location.svg" alt="illustration-svg" id="location"/>
 </div>
-</section>
 
+  <div id="makeMap">
+    <div id='map'></div>
+  </div>
+
+</div>
+<!--map-->
+
+<section class="container" style="text-align:center">
+  <h3><a href="programare/programare.html" id="programare">Programare</a></h3>
+</section>
 
 <section class="container info-home section-on-page contact" id="contact-adress">
 <h3 class="important">Cabinet stomatologic Colentina</h3>
-  <h3 class="important" style="color:DimGrey">
+  <p class="important" style="color:DimGrey">
 Bucuresti , sector 2 , Colentina nr. 8 , bloc 5 , scara B , apartament 46<br></br>
 interfon: 46 C
-  </h3>
+</p>
 </section>
 
 <section class="container info-home section-on-page contact" id="contact-tel">
@@ -131,12 +155,12 @@ interfon: 46 C
 <article class="article-contact-tel">
  <div class="center-content">
   <img src="./images/tooth-solid.svg" alt="svg-tooth-fontawesome" class="svg-tooth"/>
-    <h3 class="important" style="color:DimGrey ; margin-left:1.5em">+40 722 669 610</h3>
+    <p class="important" style="color:DimGrey ; margin-left:1.5em">+40 722 669 610</p>
  </div>
 
  <div class="center-content">
   <img src="./images/tooth-solid.svg" alt="svg-tooth-fontawesome" class="svg-tooth"/>
-    <h3 class="important" style="color:DimGrey ; margin-left:1.5em">+40 723 517 707</h3>
+    <p class="important" style="color:DimGrey ; margin-left:1.5em">+40 723 517 707</p>
  </div>
 </article>
 </section>
@@ -159,20 +183,20 @@ Activitatea stomatologica se desfasoara in conditii de siguranta maxima pentru p
 
 <div class="center-content">
    <img src="./images/time-outline.svg" alt="svg-tooth-fontawesome" class="svg-tooth"/>
-   <h3 class="important" style="color:DimGrey ; margin-left:1.5em"> Luni – Vineri || 9.00 – 18.00</h3>
+   <p class="important" style="color:DimGrey ; margin-left:1.5em"> Luni – Vineri || 9.00 – 18.00</p>
 </div>
 
 <div class="center-content">
   <img src="./images/checkmark-circle-outline.svg" alt="svg-tooth-fontawesome" class="svg-tooth"/>
-   <h3 class="important" style="color:DimGrey ; margin-left:1.5em"> Sambata ,  doar cu programare telefonica</h3>
+   <p class="important" style="color:DimGrey ; margin-left:1.5em"> Sambata ,  doar cu programare telefonica</p>
 </div>
 
 <div class="center-content">
   <img src="./images/checkmark-circle-outline.svg" alt="svg-tooth-fontawesome" class="svg-tooth"/>
-   <h3 class="important" style="color:DimGrey ; margin-left:1.5em">
-Urgentele Stomatologice sunt rezolvate<br></br>
+   <p class="important" style="color:DimGrey ; margin-left:1.5em">
+Urgentele Stomatologice sunt rezolvate
  in timpul programului de lucru dar si cu programare telefonica
-   </h3>
+</p>
 </div>
 
 </article>
@@ -199,39 +223,9 @@ Urgentele Stomatologice sunt rezolvate<br></br>
         <h3>Sources</h3>
       </a>
       <div id="divSources" class="hidden">
-        <h5><a href="https://images.unsplash.com/photo-1562124638-724e13052daf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" target="_blank">
-https://images.unsplash.com/
-photo-1562124638-
-724e13052daf?ixlib=
-rb-1.2.1&ixid=
-MnwxMjA3fDB8MHxwaG90by
-1wYWdlfHx8fGVuf
-DB8fHx8&auto=format&fit=
-crop&w=880&q=80
+        <h5><a href="https://undraw.co/search" target="_blank">
+https://undraw.co/search
           </a></h5>
-
-          <h5><a href="https://images.unsplash.com/photo-1611166819595-ac34987dfa57?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=815&q=80" target="_blank">
-    https://images.unsplash.com/
-    photo-1611166819595-
-    ac34987dfa57?ixlib=
-    rb-1.2.1&ixid=
-    MnwxMjA3fDB8MHxwaG90by
-    1wYWdlfHx8fGVuf
-    DB8fHx8&auto=
-    format&fit=crop&w=815&q=80
-            </a></h5>
-
-            <h5><a href="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" target="_blank">
-https://images.unsplash.com/
-photo-1595152772835-
-219674b2a8a6?ixlib=
-rb-1.2.1&ixid=
-MnwxMjA3fDB8MHxwaG90by
-1wYWdlfHx8fGVuf
-DB8fHx8&auto=
-format&fit=crop&w=880&q=80
-              </a></h5>
-
 
       </div>
 
@@ -247,5 +241,5 @@ format&fit=crop&w=880&q=80
 </body>
 <script src="js/footer.js" type="text/javascript"></script>
 <script src="js/hamburger.js" type="text/javascript"></script>
-<script src="js/contact-images.js" type="text/javascript"></script>
+<script src="js/map.js" type="text/javascript"></script>
 </html>
