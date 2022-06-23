@@ -22,7 +22,7 @@ const message=document.getElementById("message");
 console.log("message is : " ,message);
 
 form.addEventListener("submit" , (event) =>{
-  event.preventDefault();
+  // event.preventDefault();
 //apel functie when submit //click btn Trimite
 checkInputs();
 
@@ -104,6 +104,9 @@ if(passwordValue === '') {
 }
 
 function setErrorFor(input, message) {
+
+  event.preventDefault();
+
 	const formControl = input.parentElement.parentElement;
 	const small = formControl.querySelector('.form-control small');
 	formControl.className = 'form-control error';
@@ -124,6 +127,9 @@ function isEmail(email) {
 
 
 function setErrorForTextarea(textarea, message) {
+
+  event.preventDefault();
+
 	const formControl = textarea.parentElement.parentElement;
 	const small = formControl.querySelector('.form-control small');
 	formControl.className = 'form-control error';
@@ -135,20 +141,4 @@ function setSuccessForTextarea(textarea) {
 	formControl.className = 'form-control success';
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//
+/////

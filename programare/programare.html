@@ -111,14 +111,14 @@
 <main style="display:flex ; align-items:center ; justify-content:center">
 <aside class="aside-pattern"></aside>
 
-<section class="container section-on-page" style="margin-top:5em">
+<section class="container section-on-page">
 
 
 <form class="form" id="form">
 
 <div class="form-control">
   <label for="username">Nume
-  <input type="text" placeholder="Mihaela Aco" id="username"/>
+  <input type="text" placeholder="Mihaela Aco" id="username" name="username" required/>
   </label>
   <i class="fa fa-check-circle"></i>
   <i class="fa fa-exclamation-circle"></i>
@@ -127,7 +127,7 @@
 
 <div class="form-control">
   <label for="phone">Telefon
-  <input type="tel" placeholder="0722111111" name="phone"  id="phone" />
+  <input type="tel" placeholder="0722111111" name="phone"  id="phone" name="phone" required/>
   </label>
   <i class="fa fa-check-circle"></i>
   <i class="fa fa-exclamation-circle"></i>
@@ -136,7 +136,7 @@
 
 <div class="form-control">
   <label for="email">Email
-  <input type="email" placeholder="mihaela@yahoo.com" id="email"/>
+  <input type="email" placeholder="mihaela@yahoo.com" id="email" name="email" required/>
   </label>
   <i class="fa fa-check-circle"></i>
   <i class="fa fa-exclamation-circle"></i>
@@ -145,7 +145,7 @@
 
 <div class="form-control">
   <label for="password">Parola
-  <input type="password" placeholder="parola" id="password"/>
+  <input type="password" placeholder="parola" id="password" name="password" required/>
   </label>
   <i class="fa fa-check-circle"></i>
   <i class="fa fa-exclamation-circle"></i>
@@ -154,7 +154,7 @@
 
 <div class="form-control">
   <label for="password">Verificare parola
-  <input type="password" placeholder="verificare parola" id="password-check"/>
+  <input type="password" placeholder="verificare parola" id="password-check" name="password-check" required/>
   </label>
   <i class="fa fa-check-circle"></i>
   <i class="fa fa-exclamation-circle"></i>
@@ -163,11 +163,31 @@
 
 <div class="form-control">
   <label for="message">Mesaj
- <textarea id="message" placeholder="mesaj" name="message" rows="4" cols="50"></textarea>
+ <textarea id="message" placeholder="mesaj" name="message" rows="4" cols="50" name="message" required></textarea>
   </label>
   <i class="fa fa-check-circle"></i>
   <i class="fa fa-exclamation-circle"></i>
    <small>Eroare</small>
+</div>
+
+<div class="form-control">
+   <p style="text-align:left">Alege varsta:</p>
+  <input type="radio" id="age1" name="age" value="30" required/>
+    <label for="age1">0 - 30</label><br>
+    <input type="radio" id="age2" name="age" value="60" required/>
+    <label for="age2">31 - 60</label><br>
+    <input type="radio" id="age3" name="age" value="100" required/>
+    <label for="age3">61 - 100</label>
+</div>
+
+<div class="form-control">
+  <label for="regiuni" required>Regiune:</label>
+
+  <select name="regiuni" id="regiuni">
+    <option value="bucuresti">Bucuresti</option>
+    <option value="ilfov">Ilfov</option>
+    <option value="provincie">provincie</option>
+  </select>
 </div>
 
  <div class="center-content">

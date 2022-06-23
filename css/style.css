@@ -1185,12 +1185,41 @@ main#accordion section img:hover {
 /*-----------------------------manopere page--------------------------------------*/
 /*-------------------programare ---------------------------*/
 aside.aside-pattern {
-  background-color: pink;
-  border: 3px solid red;
+  background-color:DarkSlateGrey;
+  opacity:50%;
+  /* border: 3px solid red; */
   /* width: calc(100% - 1088px); */
   width: calc(100% - 1200px);
-  height: 150vh;
+  height: 170vh;
 }
+aside.aside-pattern:hover {
+  background-color:DarkSlateGrey;
+    opacity:75%;
+  transition: 0.5s ease;
+}
+
+aside:nth-last-of-type(1){
+  border-left:3px solid DimGrey;
+}
+
+aside:nth-last-of-type(2){
+  border-right:3px solid DimGrey;
+}
+
+/*----------------------------------background aside programare contact form page-------------------------------------*/
+
+aside{
+    background-repeat: repeat-x repeat-y;
+ background-image: url(../images/xd-tooth-pattern.svg);
+}
+
+/*
+background-image: url("paper.gif");
+  background-repeat: repeat-y;*/
+
+  /*https://www.w3schools.com/cssref/pr_background-repeat.asp*/
+
+/*----------------------------------background aside programare contact form page-------------------------------------*/
 
 /*-------------------programare contact form---------------------------*/
 form {
@@ -1215,7 +1244,7 @@ form {
 .form-control {
   padding: 0.5em 0;
   /* border: 3px solid pink; */
-  margin-bottom: 1.5em;
+  margin-bottom: 0.5em;
   position: relative;
 }
 
@@ -1283,6 +1312,44 @@ form {
 /*--------------------------textarea-------------------------------------*/
 
 
+/*--------------------------------------select option-------------------------------*/
+
+.form-control select{
+  width: 100%;
+  display: block;
+  margin-top: 0.5em;
+    margin-bottom: 2em;
+  padding: 1em 0;
+  border: 3px solid skyblue;
+  box-shadow: 0.3px 0.3px 2.5px DarkSlateGrey;
+  border-radius: 0.3em;
+  padding: 0.5em;
+  width: 100%;
+  color:cornflowerblue;
+  font-weight: bold;
+}
+
+.form-control select option{
+  display: block;
+  margin-top: 0.5em;
+  padding: 1em 0;
+  border: 3px solid skyblue;
+  box-shadow: 0.3px 0.3px 2.5px DarkSlateGrey;
+  border-radius: 0.3em;
+  padding: 0.5em;
+  width: 100%;
+  color:cornflowerblue;
+  font-weight: bold;
+}
+
+.form-control select:focus{
+  outline: 0;
+  border-color: cornflowerblue;
+}
+
+/*--------------------------------------select option-------------------------------*/
+
+
 .form-control i{
   position:absolute;
   top:43px;
@@ -1315,7 +1382,14 @@ form {
 
 
 /*-------------------programare contact form---------------------------*/
+
+
 /*-------------------programare ---------------------------*/
+
+
+
+
+
 /*footer*/
 footer h3 {
   margin-top: 1.5em;

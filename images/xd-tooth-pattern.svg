@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="68.084" height="68.001" viewBox="0 0 68.084 68.001">
+  <defs>
+    <filter id="tooth-solid" x="0" y="0" width="68.084" height="68.001" filterUnits="userSpaceOnUse">
+      <feOffset dx="3.5" dy="3.5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood flood-color="#2f4f4f" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#tooth-solid)">
+    <path id="tooth-solid-2" data-name="tooth-solid" d="M79.146,52.156a18.725,18.725,0,0,0-4.06,10.484,91.3,91.3,0,0,1-2.33,13.7l-.879,3.307a3.523,3.523,0,0,1-6.6.061l-3.85-13.524a4.757,4.757,0,0,0-8.868.01L48.71,79.721A3.534,3.534,0,0,1,42.1,79.66l-.865-3.307A79.758,79.758,0,0,1,39,62.649c-.507-3.877-1.553-7.4-4.163-10.494a11.555,11.555,0,0,1-2.4-10.776c1.228-4.418,5.259-8.006,10.267-9.153a11.611,11.611,0,0,1,7.464,1.013L61.39,39.548a1.955,1.955,0,0,0,2.469-.476,1.453,1.453,0,0,0-.544-2.16l-3.153-1.77a8.261,8.261,0,0,0,1.172-.537c2.916-1.879,6.348-3.2,9.947-2.38,5.008,1.147,9.041,4.735,10.267,9.153A11.539,11.539,0,0,1,79.146,52.156Z" transform="translate(-26.45 -26.48)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="3"/>
+  </g>
+</svg>
