@@ -1184,6 +1184,21 @@ main#accordion section img:hover {
 
 /*-----------------------------manopere page--------------------------------------*/
 /*-------------------programare ---------------------------*/
+
+@media screen and (max-width: 959px) {
+
+  #programare-body{
+    background-color:DarkSlateGrey;
+    opacity: 100%;
+
+    background-repeat: repeat-x repeat-y;
+    background-image: url(../images/xd-tooth-pattern.svg);
+  }
+
+}
+
+
+
 aside.aside-pattern {
   background-color:DarkSlateGrey;
   opacity:50%;
@@ -1227,6 +1242,7 @@ form {
   box-shadow: 0.3px 0.3px 2.5px DarkSlateGrey;
   border-radius: 0.3em;
   padding: 1em;
+  background-color: white;
 }
 
 @media screen and (min-width: 960px) {
@@ -1237,7 +1253,7 @@ form {
 
 @media screen and (max-width: 959px) {
   form {
-    width: 90vw;
+    width: 70vw;
   }
 }
 
@@ -1430,6 +1446,15 @@ margin-left:2em;
 
 #gdpr-page a:active{
   color:DimGrey;
+}
+
+#gdpr-page p{
+  text-align: left;
+}
+
+
+#gdpr-page p::first-letter{
+  margin-left: 1em;
 }
 
 /*-----------------------------------------------------gdpr html------------------------------------------------------------------*/
