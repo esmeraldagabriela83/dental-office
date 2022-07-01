@@ -20,16 +20,12 @@ console.log("passwordCheck is : " ,passwordCheck);
 
 const message=document.getElementById("message");
 console.log("message is : " ,message);
+////////////////////////////////////////////////
 
-form.addEventListener("submit" , (event) =>{
-  // event.preventDefault();
-//apel functie when submit //click btn Trimite
-checkInputs();
-
-})
 
 function checkInputs(){
 
+console.log("------------------------------------------the data of user are: ");
 //get the values from inputs
 
 const usernameValue=username.value.trim() ;
@@ -58,8 +54,8 @@ if(usernameValue === ""){
   //add sucess class;
   setSuccessFor(username);
 }
-//////////////////
-if(telValue !== 10){
+//////////////////if(telValue !== 10){
+if(telValue === ""){
   //show console.error
   //add error class;
   setErrorFor(tel , "Completeza numarul de telefon");
@@ -102,7 +98,7 @@ if(passwordValue === '') {
     }
 
 }
-
+/////////////////////////
 function setErrorFor(input, message) {
 
   event.preventDefault();
@@ -142,3 +138,10 @@ function setSuccessForTextarea(textarea) {
 }
 
 /////
+
+
+form.addEventListener("submit" , (event) =>{
+  event.preventDefault();
+//apel functie when submit //click btn Trimite
+checkInputs();
+})
