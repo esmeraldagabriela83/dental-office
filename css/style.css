@@ -1427,11 +1427,11 @@ transition: 0.5s ease;
   text-align: left;
 }
 
-#gdpr-page ul li{
+#gdpr-page ul.first-ul li.first-li{
 list-style-type: square;
 }
 
-#gdpr-page ul li ul li{
+#gdpr-page ul li ul.second-ul li.second-li{
 list-style-type: circle;
 margin-left:2em;
 }
