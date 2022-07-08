@@ -54,8 +54,8 @@ if(usernameValue === ""){
   //add sucess class;
   setSuccessFor(username);
 }
-//////////////////if(telValue !== 10){
-if(telValue === ""){
+console.log("telValue.length is : " , telValue.length);
+if(telValue.length !== 10){
   //show console.error
   //add error class;
   setErrorFor(tel , "Completeza numarul de telefon");
