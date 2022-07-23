@@ -20,6 +20,20 @@ console.log("passwordCheck is : " ,passwordCheck);
 
 const message=document.getElementById("message");
 console.log("message is : " ,message);
+
+//
+
+const age1=document.getElementById("age1");
+console.log("age1 is : " ,age1);
+const age2=document.getElementById("age2");
+console.log("age2 is : " ,age2);
+const age3=document.getElementById("age3");
+console.log("age3 is : " ,age3);
+
+//
+
+const regiuni=document.getElementById("regiuni");
+console.log("regiuni is : " ,regiuni);
 ////////////////////////////////////////////////
 
 
@@ -45,6 +59,20 @@ console.log("passwordCheckValue is : " ,passwordCheckValue);
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 const messageValue=message.value.trim() ;
 console.log("messageValue is : " ,messageValue);
+
+//
+
+const age1Value=age1.value;
+console.log("age1Value is : " ,age1Value);
+const age2Value=age2.value;
+console.log("age2Value is : " ,age2Value);
+const age3Value=age3.value;
+console.log("age3Value is : " ,age3Value);
+
+//
+
+const regiuniValue=regiuni.value ;
+console.log("regiuniValue is : " ,regiuniValue);
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 if(usernameValue === ""){
   //show console.error
